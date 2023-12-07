@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta name="description" content="Basic Calculator designed using HTML, CSS and JavaScript">
+  <meta name="keywords" content="Calculator, HTML, CSS, JavaScript, Projects for beginners, tutorials">
+
+  <!-- OG Meta tags -->
+  <meta property="og:title" content="Basic Calculator"> 
+  <meta propery="og:url" content="./index.html">
+  <meta property="og:image" content="./demo1.png">
+  <meta property="og:description" content="Basic Calculator designed using HTML, CSS and JavaScript">
+
+  <title>Basic Calculator App</title>
+
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <main id="calculator">
+    <div class="screen">
+      <input type="text" autofocus disabled>
+      <output>0</output>
+    </div>
+    <div class="keypad">
+      <div class="keypad-grid">
+        <button data-function="delete" class="del">DELETE</button>
+        <button data-function="clear" class="clr">CLR</button>
+        <button data-function="sqrt">&Sqrt;</button>
+        <button data-value="7">7</button>
+        <button data-value="8">8</button>
+        <button data-value="9">9</button>
+        <button data-value="/">&divide;</button>
+        <button data-function="square">x<sup>2</sup></button>
+        <button data-value="4">4</button>
+        <button data-value="5">5</button>
+        <button data-value="6">6</button>
+        <button data-value="*">&times;</button>
+        <button data-function="inverse">x<sup>-1</sup></button>
+        <button data-value="1">1</button>
+        <button data-value="2">2</button>
+        <button data-value="3">3</button>
+        <button data-value="-">&minus;</button>
+        <button data-function="equals" class="equals">&equals;</button>
+        <button data-value="0" class="zero">0</button>
+        <button data-value=".">&period;</button>
+        <button data-value="+">&plus;</button>
+      </div>
+    </div>
+  </main>
+</body>
+</html>
